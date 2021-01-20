@@ -1,0 +1,18 @@
+/* weird profile modals background - commented by default, uncomment to use*/
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n {
+  z-index: 1;
+  background-image: url("https://cdn.naila.bot/Discord/playing-background.svg");
+}
+
+.headerSpotify-zpWxgT,
+.topSectionSpotify-1lI0-P {
+  z-index: 1;
+  background-image: url("https://cdn.naila.bot/Discord/playing-background.svg");
+}
+
+.headerStreaming-2FjmGz,
+.topSectionStreaming-1Tpf5X {
+  z-index: 1;
+  background-image: url("https://cdn.naila.bot/Discord/playing-background.svg");
+}

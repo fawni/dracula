@@ -1,0 +1,16 @@
+/* watermark */
+@import url("https://aokiare.github.io/addons/DiscordFont.css"); /* Discord Font */
+
+.wordmark-2iDDfm svg {
+  width: 0px;
+}
+
+.wordmark-2iDDfm::after {
+  position: absolute;
+  font-family: "Discord";
+  content: "dracula";
+  font-size: 14px;
+  background: var(--dracula-accent); /* #72767d for default color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

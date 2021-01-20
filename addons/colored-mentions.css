@@ -1,0 +1,9 @@
+.mentioned-xhSam7:before {
+  background: rgb(189, 147, 249) !important;
+}
+.mentioned-xhSam7 {
+  background: rgba(189, 147, 249, 0.1) !important;
+}
+.mentioned-xhSam7:hover {
+  background: rgba(189, 147, 249, 0.2) !important;
+}

@@ -1,0 +1,24 @@
+[aria-label="Online"]::after {
+  content: "ONLINE";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #43b581;
+}
+[aria-label="Do Not Disturb"]::after {
+  content: "DO NOT DISTURB";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #f04747;
+}
+[aria-label="Idle"]::after {
+  content: "IDLE";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #ffb740;
+}
+[aria-label="Offline"]::after {
+  content: "OFFLINE";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #747f8d;
+}
