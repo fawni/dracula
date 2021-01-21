@@ -17,6 +17,7 @@
   --dracula-secondary: #242631;
   --dracula-secondary-alpha: rgba(36, 38, 49, 0.9);
   --dracula-teritary: #20222c;
+  --dracula-teritary-alpha: rgba(32, 34, 44, 0.6);
   --dracula-primary-light: #44475a;
   --dracula-accent: #bd93f9;
   --dracula-accent-alpha: rgba(189, 147, 249, 0.2);
@@ -41,7 +42,7 @@
   --focus-primary: var(--dracula-accent);
   --background-modifier-accent: var(--dracula-teritary);
   --header-primary: var(--dracula-accent);
-  --background-floating: var(--background-secondary);
+  --background-floating: var(--dracula-secondary);
 }
 
 /* home page */
@@ -183,13 +184,13 @@
 .members-1998pB,
 .members-1998pB > div,
 #dv-mount {
-  background-color: var(--background-primary);
+  background-color: var(--dracula-primary);
 }
 
 /* role picker */
 .container-3XJ8ns {
   background-color: var(--dracula-secondary);
-  border: 1px solid var(--background-tertiary);
+  border: 1px solid var(--dracula-tertiary);
 }
 
 /* media */
@@ -199,6 +200,12 @@
 .mediaBarProgress-1xaPtl:before,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
   background-color: var(--dracula-accent);
+}
+.audioControls-2HsaU6 {
+  background-color: transparent;
+}
+.videoControls-2kcYic {
+  background-color: var(--dracula-teritary-alpha);
 }
 
 /* drag n drop */
@@ -552,10 +559,10 @@ section .da-scroller::-webkit-scrollbar-thumb {
   background-color: var(--dracula-accent-alpha);
 }
 .regionSelectModal-12e-57 {
-  background: var(--background-primary) !important;
+  background: var(--dracula-primary) !important;
 }
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-  background-color: var(--background-secondary);
+  background-color: var(--dracula-secondary);
   border: 1px solid var(--dracula-teritary);
 }
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
@@ -580,17 +587,17 @@ section .da-scroller::-webkit-scrollbar-thumb {
 }
 /* region selector call */
 .theme-dark .quickSelectPopout-X1hvgV {
-  background: var(--background-secondary);
+  background: var(--dracula-secondary);
 }
 .check-2by_h9 {
   fill: var(--dracula-accent) !important;
 }
 /* date picker */
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker {
-  background-color: var(--background-secondary);
+  background-color: var(--dracula-secondary);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
-  background-color: var(--background-secondary);
+  background-color: var(--dracula-secondary);
   border-color: var(--dracula-teritary);
 }
 .theme-dark
@@ -708,7 +715,7 @@ section .da-scroller::-webkit-scrollbar-thumb {
   background-color: var(--dracula-teritary);
 }
 .theme-dark .popout-38lTFE {
-  background-color: var(--background-secondary);
+  background-color: var(--dracula-secondary);
 }
 .theme-dark .separator-XqIyoz {
   background-color: var(--dracula-teritary);
