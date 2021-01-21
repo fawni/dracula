@@ -5,7 +5,7 @@
 @use "./addons/local-bot-mods.css";
 @use "./addons/nicer-roles.css";
 @use "./addons/user-connections.scss";
-// @use "./addons/profile-modals.css";
+@use "./addons/profile-modals.css";
 @use "./addons/better-embeds.css";
 @use "./addons/better-quotes.css";
 @use "./addons/status-indicator.css";
@@ -43,6 +43,7 @@
   --background-modifier-accent: var(--dracula-teritary);
   --header-primary: var(--dracula-accent);
   --background-floating: var(--dracula-secondary);
+  --deprecated-text-input-border: var(--dracula-accent);
 
   /* powercord */
   --spotify-color: var(--dracula-accent);
@@ -733,4 +734,22 @@ section .da-scroller::-webkit-scrollbar-thumb {
 /* bdCompat modals */
 .theme-dark .modal-yWgWj- {
   background-color: var(--dracula-secondary);
+}
+/* jump to present "fix" - straight up stolen from tropical in powercord's themes channel teehee :DDD */
+.jumpToPresentBar-G1R9s6 {
+  padding: 0;
+  bottom: 8px;
+  border-radius: 15px;
+}
+/* emoji names input */
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+  background-color: var(--dracula-secondary);
+}
+.theme-dark .input-cIJ7To:focus,
+.theme-dark .input-cIJ7To.focused-1mmYsC,
+.theme-dark .input-cIJ7To:hover {
+  border-color: var(--dracula-accent);
+}
+.theme-dark .input-cIJ7To:not(:focus):hover {
+  border-color: var(--dracula-accent-light);
 }
