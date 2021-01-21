@@ -15,11 +15,13 @@
   /* theme color palette */
   --dracula-primary: #282a36;
   --dracula-secondary: #242631;
+  --dracula-secondary-alpha: rgba(36, 38, 49, 0.9);
   --dracula-teritary: #20222c;
   --dracula-primary-light: #44475a;
   --dracula-accent: #bd93f9;
   --dracula-accent-alpha: rgba(189, 147, 249, 0.2);
   --dracula-accent-alpha-alt: rgba(189, 147, 249, 0.35);
+  --dracula-accent-alpha-alt2: rgba(189, 147, 249, 0.5);
   --dracula-accent-dark: #7b49c0;
   --dracula-accent-light: #d4b5ff;
 
@@ -29,12 +31,17 @@
   --background-secondary-alt: var(--dracula-secondary);
   --background-tertiary: var(--dracula-secondary);
   --background-accent: var(--dracula-accent);
+  --scrollbar-thumb: var(--dracula-primary-light);
+  --scrollbar-thin-thumb: var(--dracula-primary-light);
+  --scrollbar-auto-scrollbar-color-thumb: var(--dracula-primary-light);
   --scrollbar-auto-track: var(--dracula-primary);
+  --scrollbar-auto-scrollbar-color-track: var(--dracula-primary);
   --scrollbar-auto-thumb: var(--dracula-primary-light);
   --text-link: var(--dracula-accent);
   --focus-primary: var(--dracula-accent);
   --background-modifier-accent: var(--dracula-teritary);
   --header-primary: var(--dracula-accent);
+  --background-floating: var(--background-secondary);
 }
 
 /* home page */
@@ -76,13 +83,12 @@
   background-color: var(--dracula-accent);
 }
 #app-mount .search-2oPWTC {
-  background: var(--dracula-primary);
   border-color: var(--dracula-accent);
 }
 .search-2oPWTC.focused-31_ccS,
 .search.open,
 .search.popout-open {
-  border: 2px outset;
+  border: 2px solid;
   border-radius: 0px;
 }
 .searchBar-3dMhjb {
@@ -354,4 +360,359 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
   background-color: var(--dracula-accent-alpha);
+}
+
+/* 21 Jan 21 fixes - thanks to snapperito */
+
+/* sliders */
+.theme-dark .bar-2Qqk5Z {
+  background-color: var(--dracula-primary-light);
+}
+/* gift buttons on sub tab */
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: var(--dracula-accent);
+  &:hover {
+    background-color: var(--dracula-accent-light);
+  }
+}
+/* voice devices*/
+.css-1ba14n5-option {
+  background-color: var(--dracula-secondary);
+}
+.css-3vaxre-menu {
+  background-color: var(--dracula-primary);
+}
+/* video */
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background-color: var(--dracula-secondary);
+  border-color: var(--dracula-teritary);
+}
+/* mic test */
+.theme-dark .progress-1IcQ3A {
+  background-color: var(--dracula-secondary);
+}
+.container-3PXSwK {
+  background: var(--dracula-accent) !important;
+}
+
+/* selected in tab settings */
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--dracula-accent-alpha);
+  border-radius: 2px;
+}
+.item-3HknzM.item-PXvHYJ[aria-controls="ADD_FRIEND-tab"] {
+  background-color: var(--dracula-accent) !important;
+}
+/* plugins modals */
+.cardPrimary-1Hv-to {
+  background: var(--dracula-secondary);
+}
+/* context menu slection fix */
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
+.da-colorDefault.da-focused {
+  background-color: var(--dracula-accent-light);
+}
+/* reactions not reacted to */
+.reaction-1hd86g {
+  background: var(--dracula-secondary);
+}
+/* overlays not selected */
+.option-n0icdO {
+  background-color: var(--dracula-primary-light);
+}
+.disabled-3I9jyo {
+  color: var(--dracula-primary-light);
+}
+/* tooltips */
+.tooltip-2QfLtc {
+  background-color: var(--dracula-secondary);
+}
+/* status picker */
+.menu-3sdvDG {
+  border: 1px solid var(--dracula-teritary);
+}
+/* in a call badge */
+.iconBadge-2wi9r4.participating-NBGDkr {
+  background-color: var(--dracula-accent);
+}
+/* call box */
+/* call buttons */
+.colorable-1bkp8v.primaryDark-3mSFDl {
+  background-color: var(--dracula-primary);
+}
+/* popout selection ring */
+.item-1tOPte[aria-checked="true"] svg {
+  color: var(--dracula-accent);
+}
+/* speaking ring */
+.avatarSpeaking-2IGMRN,
+.border-Jn5IOt.speaking-B2MXPi {
+  box-shadow: inset 0 0 0 2px var(--dracula-accent),
+    inset 0 0 0 3px var(--dracula-secondary);
+}
+/* how'd the call go dont show again :^)*/
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
+  background-color: var(--dracula-accent);
+  border-color: var(--dracula-accent);
+}
+/* escape button */
+.theme-dark .closeButton-1tv5uR {
+  border-color: var(--dracula-accent);
+}
+.theme-dark .keybind-KpFkfr {
+  color: var(--dracula-accent);
+}
+/*path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {
+  fill: var(--dracula-accent);
+}*/
+/* game activity */
+.theme-dark .game-1ipmAa {
+  box-shadow: 0 1px 0 0 var(--dracula-teritary);
+}
+.theme-dark .nowPlaying-284llR {
+  background-color: var(--dracula-accent);
+}
+.theme-dark .card-FDVird:before {
+  background-color: var(--dracula-secondary);
+  border-color: var(--dracula-teritary);
+}
+/* disabled switches */
+.container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
+  background-color: var(--dracula-primary-light) !important;
+}
+/* powercord alias plugin modal */
+.powercord-alias-pair {
+  background: var(--dracula-secondary) !important;
+  border: 1px solid var(--dracula-teritary) !important;
+}
+.powercord-alias-textarea:focus {
+  border-color: var(--dracula-accent) !important;
+}
+/* discord tweaks pc plugin */
+.searchBox {
+  background: var(--dracula-secondary) !important;
+}
+.discordTweaksSettings .tweaks .tweakCard {
+  background-color: var(--dracula-secondary) !important;
+  border: 1px solid var(--dracula-teritary);
+}
+/* scrol bar fix */
+.scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
+.auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb,
+.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb {
+  background-color: var(--dracula-primary-light);
+}
+
+.base-3dtUhz div::-webkit-scrollbar-thumb,
+#user-settings div::-webkit-scrollbar-thumb {
+  background-color: var(--dracula-primary-light) !important;
+}
+.base-3dtUhz div::-webkit-scrollbar-thumb:hover {
+  background-color: var(--dracula-primary-light) !important;
+}
+section .da-scroller::-webkit-scrollbar-thumb {
+  border: none !important;
+}
+.theme-dark .da-emojiPicker .da-scroller::-webkit-scrollbar-thumb {
+  background-color: var(--dracula-primary-light);
+  border-color: transparent;
+}
+
+/* quick switch */
+.input-2VB9rf {
+  background-color: var(--dracula-secondary);
+  border: 1px solid var(--dracula-teritary);
+}
+/* screenshare */
+.selectorButtonSelected-t5V9On {
+  background-color: var(--dracula-accent);
+}
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: var(--dracula-accent);
+}
+.item-3T2z1R {
+  border: none;
+}
+/* video and screenshare buttons alternate style - i'll just leave it here commented */
+/*.button-1YfofB.buttonColor-7qQbGO,
+.button-1YfofB .buttonColor-7qQbGO {
+  background-color: transparent;
+  border: 1px solid var(--dracula-accent);
+  border-radius: 0;
+}
+.button-1YfofB.buttonColor-7qQbGO,
+.button-1YfofB .buttonColor-7qQbGO {
+  color: var(--dracula-accent);
+}*/
+
+/* server region */
+.lookGhost-2Fn_0-.colorBrand-3pXr91 {
+  color: var(--dracula-accent);
+  background-color: var(--dracula-accent-alpha);
+}
+.regionSelectModal-12e-57 {
+  background: var(--background-primary) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--dracula-teritary);
+}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+  color: var(--dracula-accent);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+  border-color: var(--dracula-accent);
+}
+/* save changes confirmation */
+.container-2VW0UT.elevationHigh-1PneE4[style="background-color: rgba(32, 34, 37, 0.9);"] {
+  background-color: var(--dracula-secondary-alpha) !important;
+}
+/* server boost status */
+.theme-dark .tierHeaderLocked-1a2opw {
+  background-color: var(--dracula-secondary);
+}
+.theme-dark .tierBody-x9kBBp {
+  background-color: var(--dracula-primary);
+}
+.tier-3H4BXk {
+  border: 1px solid var(--dracula-teritary);
+}
+/* region selector call */
+.theme-dark .quickSelectPopout-X1hvgV {
+  background: var(--background-secondary);
+}
+.check-2by_h9 {
+  fill: var(--dracula-accent) !important;
+}
+/* date picker */
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker {
+  background-color: var(--background-secondary);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
+  background-color: var(--background-secondary);
+  border-color: var(--dracula-teritary);
+}
+.theme-dark
+  .calendarPicker-2yf6Ci
+  .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark
+  .calendarPicker-2yf6Ci
+  .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--dracula-primary-light);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
+  background-color: var(--dracula-primary);
+}
+.theme-dark
+  .calendarPicker-2yf6Ci
+  .react-datepicker__day.react-datepicker__day--selected:after {
+  background-color: var(--dracula-accent);
+}
+#app-mount
+  .calendarPicker-2yf6Ci
+  .react-datepicker__day.react-datepicker__day--selected:hover,
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day:hover {
+  background-color: var(--dracula-accent-alpha-alt2);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day {
+  border-top-color: var(--dracula-teritary);
+  border-left-color: var(--dracula-teritary);
+}
+.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
+  background-color: transparent;
+}
+.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
+  background-color: var(--dracula-accent-alpha-alt2);
+}
+/* discover page search */
+.categoryPill-34fszg.selected-1dONk0 {
+  background-color: var(--dracula-accent);
+}
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus,
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus-within {
+  border-color: var(--dracula-accent) !important;
+}
+.css-12hk9yc-control {
+  background-color: var(--dracula-secondary);
+}
+.css-ix84ef-menu {
+  background-color: var(--dracula-secondary);
+}
+.css-1adxh11-control {
+  background-color: var(--dracula-secondary);
+}
+/* store page */
+.scroller-1JpcIc {
+  background-color: var(--dracula-primary);
+}
+.theme-dark .bodySection-jqkkIP,
+.theme-dark .row-1bU71H {
+  background-color: var(--dracula-secondary);
+}
+.checkmarkIcon-2EnYwn {
+  color: var(--dracula-accent);
+}
+/* nitro gifts, idk about valid ones gift me nitro so i can find out :^) */
+.theme-dark .description-1RsfgZ {
+  color: var(--dracula-accent);
+}
+.theme-dark .tile-2OwFgW {
+  background-color: var(--dracula-secondary);
+  &:hover {
+    background-color: var(--dracula-teritary);
+  }
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
+  background-color: var(--dracula-primary-light);
+}
+.theme-dark .invalidPoop-pnUbq7 {
+  background-color: var(--dracula-secondary);
+}
+/* boost screen */
+.theme-dark .perksModal-fSYqOq {
+  background-color: var(--dracula-primary);
+}
+.theme-dark .perk-2WeBWW {
+  background-color: var(--dracula-secondary);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+  background-color: var(--dracula-accent-light);
+}
+.theme-dark .barBackground-2EEiLw,
+.theme-dark .tierMarkerBackground-3q29am {
+  background-color: var(--dracula-primary-light);
+}
+/* search channels */
+.theme-dark .searchAnswer-3Dz2-q,
+.theme-dark .searchFilter-2ESiM3 {
+  background-color: var(--dracula-primary-light);
+}
+/* announcements channels */
+.theme-dark .header-1pGpFt {
+  background: var(--dracula-secondary);
+}
+/* discovery clear button*/
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1 {
+  color: var(--dracula-primary-light);
+}
+/* homepage now playing section */
+.theme-dark .inset-3sAvek {
+  background-color: var(--dracula-primary);
+}
+.theme-dark .outer-1AjyKL.active-1xchHY,
+.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+  background-color: var(--dracula-teritary);
+}
+.theme-dark .popout-38lTFE {
+  background-color: var(--background-secondary);
+}
+.theme-dark .separator-XqIyoz {
+  background-color: var(--dracula-teritary);
+}
+.theme-dark .enabled-1t_Gxm:hover {
+  background-color: var(--dracula-teritary);
 }
