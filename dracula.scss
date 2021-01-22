@@ -878,3 +878,10 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .theme-dark .override-2YgiXd:hover {
   background-color: var(--dracula-teritary);
 }
+/* tiny chat box fix */
+.channelTextArea-2VhZ6z {
+  border-radius: 25px;
+}
+.theme-dark .form-2fGMdU:before {
+  display: none;
+}
