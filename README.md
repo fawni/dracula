@@ -1,9 +1,9 @@
-<p align="center">
-  <img align="center" width="480px" height="254" src="https://i.imgur.com/KFJ0CXL.png"></img>
-</p>
+<h1 align="center">dracula</h1>
 <p align="center">a dark mode discord theme based on the dracula color palette.</p>
 
 ![](https://i.imgur.com/b2zdZSc.png)
+
+---
 
 ## Installation
 
