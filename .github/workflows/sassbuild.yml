@@ -15,13 +15,13 @@ jobs:
         uses: AAGaming00/sass-build@master
         with:
           source: dracula.scss
-          destination: BetterDiscord/dracula.theme.css
+          destination: BetterDiscord/source.css
 
       - name: Add and Commit changes
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
-          git add BetterDiscord/dracula.theme.css
+          git add BetterDiscord/source.css
           git diff-index --quiet HEAD || git commit -m 'Updated compiled CSS files'
       - name: Push changes
         uses: ad-m/github-push-action@master
