@@ -48,6 +48,8 @@
   --background-floating: var(--dracula-secondary);
   --deprecated-text-input-border: var(--dracula-teritary);
   --deprecated-card-editable-bg: var(--dracula-secondary);
+  --deprecated-text-input-bg: var(--dracula-secondary);
+  --deprecated-text-input-border: var(--dracula-teritary);
 
   /* powercord */
   --spotify-color: var(--dracula-accent);
@@ -916,4 +918,9 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 /* keyboard combos modal */
 .theme-dark .keyboardShortcutsModal-3piNz7 {
   background-color: var(--dracula-secondary);
+}
+/* role color picker */
+.theme-dark .colorPickerCustom-2CWBn2 {
+  background: var(--dracula-primary);
+  border-color: var(--dracula-teritary);
 }
