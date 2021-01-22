@@ -42,9 +42,12 @@
   --text-link: var(--dracula-accent);
   --focus-primary: var(--dracula-accent);
   --background-modifier-accent: var(--dracula-teritary);
+  --background-modifier-hover: var(--dracula-teritary);
+  --background-modifier-active: var(--dracula-teritary);
   --header-primary: var(--dracula-accent);
   --background-floating: var(--dracula-secondary);
   --deprecated-text-input-border: var(--dracula-teritary);
+  --deprecated-card-editable-bg: var(--dracula-secondary);
 
   /* powercord */
   --spotify-color: var(--dracula-accent);
@@ -420,7 +423,10 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 
 /* selected in tab settings */
-.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--dracula-accent);
+  border-radius: 2px;
+}
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
   background-color: var(--dracula-accent-alpha);
   border-radius: 2px;
@@ -896,4 +902,18 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 }
 .theme-dark .form-2fGMdU:before {
   display: none;
+}
+/* billing stuff */
+.css-dwar6a-menu {
+  background-color: var(--dracula-secondary);
+}
+.css-rzbxvl-option {
+  background-color: var(--dracula-teritary);
+}
+.theme-dark .defaultIndicator-G3c16x {
+  background-color: var(--dracula-accent);
+}
+/* keyboard combos modal */
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+  background-color: var(--dracula-secondary);
 }
