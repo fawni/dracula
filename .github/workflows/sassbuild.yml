@@ -1,0 +1,30 @@
+on:
+  push
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source Git branch
+        uses: actions/checkout@v2
+        with:
+            ref: ${{ github.ref }}
+
+      - name: Compile CSS
+        uses: AAGaming00/sass-build@master
+        with:
+          source: dracula.scss
+          destination: BetterDiscord/dracula.theme.css
+
+      - name: Add and Commit changes
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add BetterDiscord/dracula.theme.css
+          git diff-index --quiet HEAD || git commit -m 'Updated compiled CSS files'
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
