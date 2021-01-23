@@ -78,7 +78,7 @@
   background-color: var(--dracula-secondary);
 }
 .theme-dark .selected-1Tbx07 {
-  background-color: var(--dracula-accent);
+  background-color: var(--dracula-accent-alpha);
 }
 .categoryHeader-O1zU94 {
   background-color: var(--dracula-primary);
@@ -531,7 +531,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
   background-color: var(--dracula-secondary) !important;
   border: 1px solid var(--dracula-teritary);
 }
-/* scroll bar fix */
+/* scroll bar fix - for future refrence ::-webkit-scrollbar doesn't play nice with Horizontal Server List */
 .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
 .auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb,
 .thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb {
@@ -544,13 +544,6 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .base-3dtUhz div::-webkit-scrollbar-thumb:hover {
   background-color: var(--dracula-primary-light) !important;
-}
-section .da-scroller::-webkit-scrollbar-thumb {
-  border: none !important;
-}
-.theme-dark .da-emojiPicker .da-scroller::-webkit-scrollbar-thumb {
-  background-color: var(--dracula-primary-light);
-  border-color: transparent;
 }
 
 /* quick switch */
