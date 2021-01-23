@@ -14,7 +14,7 @@ jobs:
         uses: AAGaming00/sass-build@master
         with:
           source: dracula.scss
-          destination: BetterDiscord/source.css
+          destination: Aokiare/aokiare.github.io/blob/main/themes/BetterDiscord/dracula/source.css
 
       - name: Add and Commit changes
         run: |
