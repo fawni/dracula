@@ -9,7 +9,7 @@
 
 ### Powercord
 
-1. clone the repo in the themes folder `git clone https://github.com/Aokiare/dracula`
+1. clone the repo `cd powercord/src/powercord/themes && git clone https://github.com/aokiare/dracula`
 2. enable dracula by typing `[p]theme enable dracula` or use [Theme Toggler](https://github.com/redstonekasi/theme-toggler)
 
 **Powercord currently does not auto update themes, to get the latest updates use `git pull`**
