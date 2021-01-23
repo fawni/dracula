@@ -1,7 +1,13 @@
 <h1 align="center">dracula</h1>
-<p align="center">a dark mode discord theme based on the dracula color palette.</p>
+<p align="center">
+  <a href="#discord-dyslexia">overview</a> |
+  <a href="#installation">installation</a> |
+  <a href="#credits">credits</a>
+</p>
 
 ![](https://i.imgur.com/b2zdZSc.png)
+
+<p align="center">a dark mode discord theme based on the dracula color palette.</p>
 
 ---
 
@@ -19,3 +25,13 @@
 1. download the theme file [here](https://raw.githubusercontent.com/Aokiare/dracula/main/BetterDiscord/dracula.theme.css) `right click -> save as...`
 2. place it in the BetterDiscord themes folder
 3. enable dracula in the themes tab
+
+## Credits
+
+* [LuckFire](https://github.com/LuckFire) | [Better Channel Indicators](https://github.com/LuckFire/BetterChannelIndicators), [Nicer User Connections](https://github.com/LuckFire/Nicer-User-Connections), [Better Quotes](https://github.com/LuckFire/Midnight-Mars/blob/main/src/addons/better-quotes.scss) and [Text Status Indicators](https://github.com/LuckFire/Midnight-Mars/blob/main/src/addons/text-status-indicators.css) Addons
+* [Asteria](https://github.com/Asteria5675/) | [Dusk to Dawn Settings](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCodes/src/dd.css) Addon
+* [Tropical](https://github.com/tropix126) | [this snippet](https://github.com/Aokiare/dracula/blob/main/dracula.scss#L760-L765) and the readme template :D
+* [KraXen72](https://github.com/KraXen72/) | a lot of the designing decisions were inspired by [rosebox](https://github.com/KraXen72/rosebox)
+* [Dracula](https://github.com/dracula/dracula-theme) | color palette!
+
+**please inform me if i forgot anyone**
