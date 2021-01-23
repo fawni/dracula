@@ -1,6 +1,6 @@
 <h1 align="center">dracula</h1>
 <p align="center">
-  <a href="#discord-dyslexia">overview</a> |
+  <a href="#dracula">overview</a> |
   <a href="#installation">installation</a> |
   <a href="#credits">credits</a>
 </p>
