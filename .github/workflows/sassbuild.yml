@@ -22,7 +22,7 @@ jobs:
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
           git add BetterDiscord/source.css
-          git diff-index --quiet HEAD || git commit -m 'Updated compiled CSS files'
+          git diff-index --quiet HEAD || git commit -m 'updated betterdiscord version'
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
