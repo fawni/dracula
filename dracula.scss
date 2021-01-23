@@ -17,8 +17,8 @@
   --dracula-primary: #282a36;
   --dracula-secondary: #242631;
   --dracula-secondary-alpha: rgba(36, 38, 49, 0.9);
-  --dracula-teritary: #20222c;
-  --dracula-teritary-alpha: rgba(32, 34, 44, 0.6);
+  --dracula-tertiary: #20222c;
+  --dracula-tertiary-alpha: rgba(32, 34, 44, 0.6);
   --dracula-primary-light: #44475a;
   --dracula-accent: #bd93f9;
   --dracula-accent-alpha: rgba(189, 147, 249, 0.2);
@@ -41,21 +41,24 @@
   --scrollbar-auto-thumb: var(--dracula-primary-light);
   --text-link: var(--dracula-accent);
   --focus-primary: var(--dracula-accent);
-  --background-modifier-accent: var(--dracula-teritary);
-  --background-modifier-hover: var(--dracula-teritary);
-  --background-modifier-active: var(--dracula-teritary);
+  --background-modifier-accent: var(--dracula-tertiary);
+  --background-modifier-hover: var(--dracula-tertiary);
+  --background-modifier-active: var(--dracula-tertiary);
   --header-primary: var(--dracula-accent);
   --background-floating: var(--dracula-secondary);
-  --deprecated-text-input-border: var(--dracula-teritary);
+  --deprecated-text-input-border: var(--dracula-tertiary);
   --deprecated-card-editable-bg: var(--dracula-secondary);
   --deprecated-text-input-bg: var(--dracula-secondary);
-  --deprecated-text-input-border: var(--dracula-teritary);
+  --deprecated-text-input-border: var(--dracula-tertiary);
 
   /* powercord */
   --spotify-color: var(--dracula-accent);
 
   /* betterdiscord */
   --bd-blue: var(--dracula-accent);
+  --bd-blue-hover: var(--dracula-accent-light);
+  --bd-blue-active: var(--dracula-accent-light);
+  --blurple: var(--dracula-accent);
 }
 
 /* home page */
@@ -65,7 +68,7 @@
 /* chat box*/
 .scrollableContainer-2NUZem {
   border-radius: 25px;
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
   background-color: var(--dracula-secondary);
 }
 /* date divider */
@@ -180,7 +183,7 @@
 .theme-dark .message-2qRu38 {
   background-color: var(--dracula-secondary);
   box-shadow: none;
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 /* update button */
 .updateIconForeground-3tnNZn {
@@ -219,7 +222,7 @@
   background-color: transparent;
 }
 .videoControls-2kcYic {
-  background-color: var(--dracula-teritary-alpha);
+  background-color: var(--dracula-tertiary-alpha);
 }
 .mediaBarInteractionVolume-3QZqYd {
   background-color: var(--dracula-secondary-alpha);
@@ -266,7 +269,7 @@
 }
 .theme-dark .codeRedemptionRedirect-1wVR4b {
   background-color: var(--dracula-secondary);
-  border-color: var(--dracula-teritary);
+  border-color: var(--dracula-tertiary);
 }
 
 /* join a server modal - because discord are literary braindead */
@@ -313,7 +316,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .input--jS-j2 {
   background-color: var(--dracula-secondary);
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 /* discover servers */
 .theme-dark .pageWrapper-1PgVDX {
@@ -418,7 +421,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 /* video */
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   background-color: var(--dracula-secondary);
-  border-color: var(--dracula-teritary);
+  border-color: var(--dracula-tertiary);
 }
 /* mic test */
 .theme-dark .progress-1IcQ3A {
@@ -467,7 +470,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 /* status picker */
 .menu-3sdvDG {
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 /* in a call badge */
 .iconBadge-2wi9r4.participating-NBGDkr {
@@ -505,14 +508,14 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }*/
 /* game activity */
 .theme-dark .game-1ipmAa {
-  box-shadow: 0 1px 0 0 var(--dracula-teritary);
+  box-shadow: 0 1px 0 0 var(--dracula-tertiary);
 }
 .theme-dark .nowPlaying-284llR {
   background-color: var(--dracula-accent);
 }
 .theme-dark .card-FDVird:before {
   background-color: var(--dracula-secondary);
-  border-color: var(--dracula-teritary);
+  border-color: var(--dracula-tertiary);
 }
 /* disabled switches */
 .container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
@@ -521,7 +524,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 /* powercord alias plugin modal */
 .powercord-alias-pair {
   background: var(--dracula-secondary) !important;
-  border: 1px solid var(--dracula-teritary) !important;
+  border: 1px solid var(--dracula-tertiary) !important;
 }
 .powercord-alias-textarea:focus {
   border-color: var(--dracula-accent) !important;
@@ -532,7 +535,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .discordTweaksSettings .tweaks .tweakCard {
   background-color: var(--dracula-secondary) !important;
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 /* scroll bar fix - for future refrence ::-webkit-scrollbar doesn't play nice with Horizontal Server List */
 .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
@@ -552,7 +555,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 /* quick switch */
 .input-2VB9rf {
   background-color: var(--dracula-secondary);
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 /* screenshare */
 .selectorButtonSelected-t5V9On {
@@ -586,7 +589,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
   background-color: var(--dracula-secondary);
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
   color: var(--dracula-accent);
@@ -606,7 +609,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
   background-color: var(--dracula-primary);
 }
 .tier-3H4BXk {
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 /* region selector call */
 .theme-dark .quickSelectPopout-X1hvgV {
@@ -621,7 +624,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
   background-color: var(--dracula-secondary);
-  border-color: var(--dracula-teritary);
+  border-color: var(--dracula-tertiary);
 }
 .theme-dark
   .calendarPicker-2yf6Ci
@@ -647,8 +650,8 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
   background-color: var(--dracula-accent-alpha-alt2);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day {
-  border-top-color: var(--dracula-teritary);
-  border-left-color: var(--dracula-teritary);
+  border-top-color: var(--dracula-tertiary);
+  border-left-color: var(--dracula-tertiary);
 }
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
   background-color: transparent;
@@ -691,7 +694,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .theme-dark .tile-2OwFgW {
   background-color: var(--dracula-secondary);
   &:hover {
-    background-color: var(--dracula-teritary);
+    background-color: var(--dracula-tertiary);
   }
 }
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
@@ -735,16 +738,16 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .theme-dark .outer-1AjyKL.active-1xchHY,
 .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-  background-color: var(--dracula-teritary);
+  background-color: var(--dracula-tertiary);
 }
 .theme-dark .popout-38lTFE {
   background-color: var(--dracula-secondary);
 }
 .theme-dark .separator-XqIyoz {
-  background-color: var(--dracula-teritary);
+  background-color: var(--dracula-tertiary);
 }
 .theme-dark .enabled-1t_Gxm:hover {
-  background-color: var(--dracula-teritary);
+  background-color: var(--dracula-tertiary);
 }
 /* reply mention */
 .colorBrand-2tjs5J {
@@ -781,7 +784,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 .tile-2naSqK {
   background-color: var(--dracula-secondary) !important;
-  border: 1px solid var(--dracula-teritary);
+  border: 1px solid var(--dracula-tertiary);
 }
 .gradientContainer-10lXLB {
   background-image: linear-gradient(
@@ -803,13 +806,13 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .colorable-1bkp8v.primaryDark-3mSFDl {
   background-color: var(--dracula-secondary);
   &:hover {
-    background-color: var(--dracula-teritary);
+    background-color: var(--dracula-tertiary);
   }
 }
 .colorable-1bkp8v.white-3GPOIp {
   background-color: var(--dracula-accent);
   &:hover {
-    background-color: var(--dracula-teritary);
+    background-color: var(--dracula-tertiary);
   }
 }
 .colorable-1bkp8v.white-3GPOIp,
@@ -889,11 +892,11 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .theme-dark .default-3oAQTF {
   background-color: var(--dracula-secondary);
   &:hover {
-    background-color: var(--dracula-teritary);
+    background-color: var(--dracula-tertiary);
   }
 }
 .theme-dark .override-2YgiXd:hover {
-  background-color: var(--dracula-teritary);
+  background-color: var(--dracula-tertiary);
 }
 /* tiny chat box fix */
 .channelTextArea-2VhZ6z {
@@ -907,7 +910,7 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
   background-color: var(--dracula-secondary);
 }
 .css-rzbxvl-option {
-  background-color: var(--dracula-teritary);
+  background-color: var(--dracula-tertiary);
 }
 .theme-dark .defaultIndicator-G3c16x {
   background-color: var(--dracula-accent);
@@ -919,7 +922,7 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 /* role color picker */
 .theme-dark .colorPickerCustom-2CWBn2 {
   background: var(--dracula-primary);
-  border-color: var(--dracula-teritary);
+  border-color: var(--dracula-tertiary);
 }
 /* game activity */
 .theme-dark .notDetected-33MY4s {
@@ -941,4 +944,28 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 }
 .theme-dark .reactionSelected-1pqISm {
   background-color: var(--dracula-accent);
+}
+/* bbd stuff */
+.theme-dark .bd-addon-list .bd-addon-card {
+  background-color: var(--dracula-secondary);
+  border-color: var(--dracula-tertiary);
+}
+.theme-dark .bd-addon-list .bd-card-footer {
+  border-top-color: var(--dracula-tertiary);
+}
+.theme-dark .bd-addon-list .bda-header {
+  border-bottom-color: var(--dracula-tertiary);
+}
+.bd-search-wrapper {
+  background-color: var(--dracula-secondary);
+}
+.bd-select .bd-select-options {
+  background: var(--dracula-secondary);
+}
+.bd-select .bd-select-option:hover,
+.bd-select .bd-select-option.selected {
+  background: var(--dracula-tertiary);
+}
+#bd-settingspane-container .ui-switch-item .style-description {
+  border-bottom: none;
 }
