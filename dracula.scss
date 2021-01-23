@@ -165,11 +165,12 @@
 }
 /* server and channel name */
 .name-1jkAdW,
-.base-1x0h_U {
+.base-1x0h_U:not(.nameNormal-2lqVQK) {
   color: var(--dracula-accent);
 }
 /* oopsie */
-.nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH {
+.nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH,
+.gameIcon-gg34Dz {
   color: #ffffff;
 }
 /* delete message */
@@ -530,7 +531,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
   background-color: var(--dracula-secondary) !important;
   border: 1px solid var(--dracula-teritary);
 }
-/* scrol bar fix */
+/* scroll bar fix */
 .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
 .auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb,
 .thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb {
@@ -923,4 +924,14 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .theme-dark .colorPickerCustom-2CWBn2 {
   background: var(--dracula-primary);
   border-color: var(--dracula-teritary);
+}
+/* game activity */
+.theme-dark .notDetected-33MY4s {
+  background-color: var(--dracula-primary-light);
+}
+.theme-dark .addGamePopout-2RY8Ju {
+  background-color: var(--dracula-primary);
+}
+.css-6fzn47-control:hover {
+  border-color: var(--dracula-accent);
 }
