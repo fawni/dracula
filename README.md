@@ -7,9 +7,15 @@
 
 ## Installation
 
-_this theme is written in SCSS and split to multiple files so it can **not** work with betterdiscord (at least for now)_
-
-#### Powercord
+### Powercord
 
 1. clone the repo in the themes folder `git clone https://github.com/Aokiare/dracula`
-2. enable dracula by typing `.theme enable dracula` or use [Theme Toggler](https://github.com/redstonekasi/theme-toggler)
+2. enable dracula by typing `[p]theme enable dracula` or use [Theme Toggler](https://github.com/redstonekasi/theme-toggler)
+
+**Powercord currently does not auto update themes, to get the latest updates use `git pull`**
+
+### BetterDiscord
+
+1. download the theme file [here](https://raw.githubusercontent.com/Aokiare/dracula/main/BetterDiscord/dracula.theme.css) `right click -> save as...`
+2. place it in the BetterDiscord themes folder
+3. enable dracula in the themes tab
