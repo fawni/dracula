@@ -52,7 +52,7 @@
   --deprecated-text-input-border: var(--dracula-tertiary);
 
   /* powercord */
-  --spotify-color: var(--dracula-accent);
+  --spotify-color: var(--dracula-accent) !important;
 
   /* betterdiscord */
   --bd-blue: var(--dracula-accent);
@@ -991,4 +991,29 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .theme-dark .autocompleteArrow-Zxoy9H,
 .theme-dark .header-2bNvm4 {
   background-color: var(--dracula-secondary);
+}
+/* spotify listening party */
+.theme-dark .invite-18yqGF {
+  background-color: var(--dracula-secondary);
+  border-color: var(--dracula-tertiary);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+  background-color: var(--dracula-primary-light);
+}
+.attachButtonPlay-3iJ0mf {
+  color: var(--dracula-accent);
+}
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+  color: var(--dracula-accent);
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+  /* discord is fucking weird dont ask me */
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--dracula-accent) 0,
+    var(--dracula-accent) 2px,
+    transparent 0
+  );
 }
