@@ -252,7 +252,21 @@
 .theme-dark .footer-3mqk7D {
   background-color: var(--dracula-secondary);
 }
-
+.checked-3_4uQ9[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218);"] {
+  border-color: var(--dracula-accent) !important;
+}
+path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z"][fill="#7289da"] {
+  fill: var(--dracula-accent);
+}
+/* taken from rosebox by KraXen72 */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  border: 2px solid var(--dracula-accent);
+}
+.uploadModal-2ifh8j .inner-3nWsbo,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo {
+  border: 2px dashed var(--dracula-accent);
+  border-radius: 10px;
+}
 /* settings */
 .button-14-BFJ {
   border-radius: 15px;
@@ -968,4 +982,12 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 }
 #bd-settingspane-container .ui-switch-item .style-description {
   border-bottom: none;
+}
+/* channel perms */
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 {
+  background-color: var(--dracula-primary);
+}
+.theme-dark .autocompleteArrow-Zxoy9H,
+.theme-dark .header-2bNvm4 {
+  background-color: var(--dracula-secondary);
 }
