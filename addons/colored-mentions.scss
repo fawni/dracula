@@ -1,0 +1,14 @@
+$mentioned: rgb(189, 147, 249);
+
+.mentioned-xhSam7 {
+  background: rgba($mentioned, 0.1) !important;
+  &:before {
+    background: $mentioned !important;
+  }
+  &:hover {
+    background: rgba($mentioned, 0.2) !important;
+  }
+}
+.numberBadge-2s8kKX.base-PmTxvP {
+  background-color: var(--dracula-accent) !important;
+}

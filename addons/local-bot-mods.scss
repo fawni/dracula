@@ -1,0 +1,49 @@
+/* name, color, and pic */
+$bot-msg: rgb(189, 147, 249);
+$bot-name: #ee00c4;
+
+.wrapper-2a6GCs.ephemeral-1PsL1r {
+  background-color: rgba(114, 137, 218, 0.05);
+  box-shadow: inset 2px 0 #7289da;
+  & .username-1A8OIy {
+    --local-bot-name: "dracula"; /* Change this */
+    color: $bot-name;
+    visibility: hidden;
+    &::before {
+      content: var(--local-bot-name);
+      visibility: visible;
+    }
+  }
+  &:hover {
+    background-color: rgba(114, 137, 218, 0.12) !important;
+  }
+  & [src*="powercord"],
+  & [src*="/assets/"] {
+    content: url("https://i.imgur.com/KlWAZ0C.jpg"); /* Change This */
+  }
+  &
+    [src*="powercord"]
+    + .header-23xsNx
+    > .headerText-3Uvj1Y
+    > .botTagCozy-1fFsZk {
+    margin-left: -65px;
+  }
+  &
+    [src*="/assets/"]
+    + .header-23xsNx
+    > .headerText-3Uvj1Y
+    > .botTagCozy-1fFsZk {
+    margin-left: -30px;
+  }
+}
+
+/* local bot msgs color */
+.ephemeral-1PsL1r {
+  background-color: rgba($bot-msg, 0.1) !important;
+  &:before {
+    background-color: $bot-msg !important;
+  }
+}
+.mouse-mode.full-motion .ephemeral-1PsL1r:hover {
+  background-color: rgba($bot-msg, 0.2) !important;
+}

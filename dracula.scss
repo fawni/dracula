@@ -4,8 +4,8 @@
 /* Addons */
 @use "./addons/watermark.css";
 @use "./addons/better-channel-indicators.css";
-@use "./addons/colored-mentions.css";
-@use "./addons/local-bot-mods.css";
+@use "./addons/colored-mentions.scss";
+@use "./addons/local-bot-mods.scss";
 @use "./addons/nicer-roles.css";
 @use "./addons/user-connections.scss";
 @use "./addons/profile-modals.css";
@@ -972,6 +972,10 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
     transparent 0
   );
 }
+/* meh */
 .ephemeralMessage-1fEWtQ a {
+  color: var(--dracula-accent);
+}
+.operations-36ENbA > a {
   color: var(--dracula-accent);
 }
