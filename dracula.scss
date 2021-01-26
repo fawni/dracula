@@ -1,3 +1,6 @@
+/* Variables */
+@use "./vars.css";
+
 /* Addons */
 @use "./addons/watermark.css";
 @use "./addons/better-channel-indicators.css";
@@ -13,55 +16,6 @@
 @use "./addons/apple-emojis.css";
 
 /* Theme */
-:root {
-  /* theme color palette */
-  --dracula-primary: #282a36;
-  --dracula-secondary: #242631;
-  --dracula-secondary-alpha: rgba(36, 38, 49, 0.9);
-  --dracula-tertiary: #20222c;
-  --dracula-tertiary-alpha: rgba(32, 34, 44, 0.6);
-  --dracula-primary-light: #44475a;
-  --dracula-accent: #bd93f9;
-  --dracula-accent-alpha: rgba(189, 147, 249, 0.2);
-  --dracula-accent-alpha-alt: rgba(189, 147, 249, 0.35);
-  --dracula-accent-alpha-alt2: rgba(189, 147, 249, 0.5);
-  --dracula-accent-dark: #7b49c0;
-  --dracula-accent-light: #d4b5ff;
-
-  /* discord variables*/
-  --background-primary: var(--dracula-primary);
-  --background-secondary: var(--dracula-secondary);
-  --background-secondary-alt: var(--dracula-secondary);
-  --background-tertiary: var(--dracula-secondary);
-  --background-accent: var(--dracula-accent);
-  --scrollbar-thumb: var(--dracula-primary-light);
-  --scrollbar-thin-thumb: var(--dracula-primary-light);
-  --scrollbar-auto-scrollbar-color-thumb: var(--dracula-primary-light);
-  --scrollbar-auto-track: var(--dracula-primary);
-  --scrollbar-auto-scrollbar-color-track: var(--dracula-primary);
-  --scrollbar-auto-thumb: var(--dracula-primary-light);
-  --text-link: var(--dracula-accent);
-  --focus-primary: var(--dracula-accent);
-  --background-modifier-accent: var(--dracula-tertiary);
-  --background-modifier-hover: var(--dracula-tertiary);
-  --background-modifier-active: var(--dracula-tertiary);
-  --header-primary: var(--dracula-accent);
-  --background-floating: var(--dracula-secondary);
-  --deprecated-text-input-border: var(--dracula-tertiary);
-  --deprecated-card-editable-bg: var(--dracula-secondary);
-  --deprecated-text-input-bg: var(--dracula-secondary);
-  --deprecated-text-input-border: var(--dracula-tertiary);
-
-  /* powercord */
-  --spotify-color: var(--dracula-accent) !important;
-
-  /* betterdiscord */
-  --bd-blue: var(--dracula-accent);
-  --bd-blue-hover: var(--dracula-accent-light);
-  --bd-blue-active: var(--dracula-accent-light);
-  --blurple: var(--dracula-accent);
-}
-
 /* home page */
 .theme-dark .container-1D34oG {
   background-color: var(--dracula-primary);
@@ -771,7 +725,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 /* bdCompat modals */
 .theme-dark .modal-yWgWj- {
-  background-color: var(--dracula-secondary);
+  background-color: var(--dracula-primary);
 }
 /* jump to present "fix" - straight up stolen from tropical in powercord's themes channel teehee :DDD */
 .jumpToPresentBar-G1R9s6 {
@@ -1017,4 +971,7 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
     var(--dracula-accent) 2px,
     transparent 0
   );
+}
+.ephemeralMessage-1fEWtQ a {
+  color: var(--dracula-accent);
 }
