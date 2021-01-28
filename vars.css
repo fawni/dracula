@@ -39,10 +39,10 @@
 
   /* powercord */
   --spotify-color: var(--dracula-accent) !important;
-  --toast-header: var(--dracula-secondary);
-  --toast-background: var(--dracula-primary);
-  --toast-border: var(--dracula-tertiary);
-  --toast-contents: var(--dracula-secondary);
+  --toast-header: var(--dracula-secondary) !important;
+  --toast-background: var(--dracula-primary) !important;
+  --toast-border: var(--dracula-tertiary) !important;
+  --toast-contents: var(--dracula-secondary) !important;
 
   /* betterdiscord */
   --bd-blue: var(--dracula-accent);
