@@ -5,6 +5,7 @@
 @use "./addons/watermark.css";
 @use "./addons/better-channel-indicators.css";
 @use "./addons/colored-mentions.scss";
+@use "./addons/colored-replies.scss";
 @use "./addons/local-bot-mods.scss";
 @use "./addons/nicer-roles.css";
 @use "./addons/user-connections.scss";
@@ -998,4 +999,8 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 /* invite "join x" */
 .theme-dark .contentWrapper-3WC1ID {
   background: var(--dracula-primary);
+}
+/* fix replying */
+.container-2fRDfG {
+  margin: 0 20px 0 20px;
 }
