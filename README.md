@@ -22,7 +22,7 @@
 
 ### BetterDiscord
 
-1. download the theme file [here](https://raw.githubusercontent.com/Aokiare/dracula/main/BetterDiscord/dracula.theme.css) `right click -> save as...`
+1. download the theme file [here](https://betterdiscord.net/ghdl?id=3493)
 2. place it in the BetterDiscord themes folder
 3. enable dracula in the themes tab
 
