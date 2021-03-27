@@ -1,0 +1,11 @@
+.jumpToPresentBar-G1R9s6 {
+  visibility: hidden;
+  bottom: 15px;
+}
+.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+  visibility: visible;
+  padding: 12px;
+  background-color: var(--dracula-accent);
+  border-radius: 50%;
+  margin-bottom: 2em;
+}

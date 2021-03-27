@@ -1,0 +1,26 @@
+@import url("https://snappercord.github.io/Settings-Icons/source.css");
+
+.theme-dark {
+  --settings-icon-color: white;
+
+  --settings-subscriptions: #7289da;
+  --settings-hypesquad: #fbb848;
+  --settings-logout: #f04747;
+
+  --settings-alt-focused: white;
+
+  --settings-guild-premium: #7289da;
+  --settings-guild-delete: #f04747;
+}
+.theme-light {
+  --settings-icon-color: #4f5660;
+
+  --settings-subscriptions: #7289da;
+  --settings-hypesquad: #fbb848;
+  --settings-logout: #f04747;
+
+  --settings-alt-focused: white;
+
+  --settings-guild-premium: #7289da;
+  --settings-guild-delete: #f04747;
+}

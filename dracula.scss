@@ -15,6 +15,8 @@
 @use "./addons/status-indicator.css";
 @use "./addons/dusk-to-dawn-settings.css";
 @use "./addons/apple-emojis.css";
+@use "./addons/jump-to-present.css";
+@use "./addons/settings-icons.css";
 
 /* Theme */
 /* home page */
@@ -988,11 +990,9 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 }
 /* rtc connection */
 #app-mount .container-2x5lvQ {
-  & .header-2C89wJ {
+  .header-2C89wJ,
+  section {
     background-color: var(--dracula-secondary);
-  }
-  & section {
-    background-color: var(--dracula-primary);
   }
 }
 /* bd plugin, no idea if this is anywhere else in discord but hey ¯\_(ツ)_/¯ */
@@ -1098,4 +1098,176 @@ html.theme-light {
 /* uploading progress bar */
 .progressBar-3u8FBM {
   background-color: var(--dracula-accent) !important;
+}
+
+/* left icons */
+.icon-LYJorE,
+.iconContainer-2-XQPY {
+  order: -1;
+  padding-right: 10px;
+  margin-left: 0px;
+}
+
+/* Better RTC Connection popout */
+.layerContainer-yqaFcK
+  .layer-v9HyYc[style*="position: absolute; left: 100px;"] {
+  left: 72px !important;
+}
+.container-2x5lvQ {
+  width: 240px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+.layerContainer-yqaFcK
+  .layer-v9HyYc[style*="position: absolute; left: 100px;"]
+  .container-2x5lvQ
+  header {
+  background-color: var(--toast-header);
+}
+.layerContainer-yqaFcK
+  .layer-v9HyYc[style*="position: absolute; left: 100px;"]
+  .container-2x5lvQ
+  section {
+  background-color: var(--deprecated-panel-background);
+}
+.container-2x5lvQ section p:nth-of-type(1) {
+  font-size: 0;
+}
+.container-2x5lvQ section p:nth-of-type(2) {
+  display: none;
+}
+.container-2x5lvQ section strong {
+  font-size: 14px;
+  white-space: pre;
+}
+.container-2x5lvQ section strong::before {
+  font-weight: normal;
+}
+.container-2x5lvQ section strong:nth-of-type(1)::before {
+  content: "Server: ";
+}
+.container-2x5lvQ section strong:nth-of-type(2)::before {
+  content: "Average Ping: ";
+}
+.container-2x5lvQ section strong:nth-of-type(3)::before {
+  content: "Last Ping: ";
+}
+.container-2x5lvQ section strong:nth-of-type(4)::before {
+  content: "Packet Loss: ";
+}
+
+/* voice badge */
+.iconBadge-3qSJIw.participating-1NvRVd {
+  background-color: var(--dracula-accent);
+}
+
+/* mic test - stolen from CreArts v2.0 by CorellanStoma#1996 */
+.container-3PXSwK {
+  border-radius: 25px;
+}
+.userSettingsVoice-iwdUCU,
+.container-3PXSwK {
+  width: auto !important;
+}
+.theme-dark .notches-1sAcEM.gray-3_LNYR {
+  display: none;
+}
+
+.theme-dark .progress-1IcQ3A,
+.theme-light .progress-1IcQ3A {
+  background: var(--dracula-primary);
+}
+
+.micTestCaption-2xsa4I {
+  top: 32px;
+  left: 148px;
+}
+
+// Button
+.micTestButton-2Vwk4_ {
+  width: 140px;
+}
+
+/* reorder theme toggler and bdCompat settings for powercord */
+#app-mount .item-PXvHYJ[data-item-id="bdCompat"],
+#app-mount .item-PXvHYJ[data-item-id="theme-toggler"] {
+  order: 1;
+}
+.item-PXvHYJ[data-item-id="pc-moduleManager-plugins"] ~ div {
+  order: 2;
+}
+
+/* smaller channel icons */
+.icon-1DeIlz {
+  width: 15px;
+}
+
+/* dd's cute mentions */
+.wrapper-3WhCwL {
+  border-radius: 5px;
+  padding: 2px 3px;
+  font-size: 0.9em;
+}
+
+/*Mac like topbar buttons*/
+.winButton-iRh8-Z > svg {
+  display: none;
+}
+.winButton-iRh8-Z:hover {
+  background-color: var(--background-secondary);
+}
+.winButton-iRh8-Z {
+  pointer-events: none;
+  margin-left: -3px;
+}
+
+.winButton-iRh8-Z::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+}
+.winButtonClose-1HsbF- {
+  margin-right: 3px;
+}
+.winButtonClose-1HsbF-::after {
+  background-color: #ff605c;
+}
+.winButtonClose-1HsbF-:hover::after {
+  background-color: rgba(255, 96, 92, 0.5);
+}
+.winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
+  background-color: #ffbd44;
+}
+.winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
+  background-color: rgba(255, 189, 68, 0.5);
+}
+.winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
+  background-color: #00ca4e;
+}
+.winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
+  background-color: rgba(0, 202, 78, 0.5);
+}
+
+rect[mask="url(#4b31347c-cb56-42fe-862e-53b896761cdf)"] {
+  mask: url(#092a5e38-8247-4149-a73e-88e2fc3d2342) !important;
+}
+
+/* hide msg box icons until hover */
+.buttons-3JBrkn {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.channelTextArea-rNsIhG:hover .buttons-3JBrkn {
+  opacity: 1;
+}
+
+/* Bigger avatar on popups */
+.header-QKLPzZ > .avatar-3EQepX.wrapper-3t9DeA {
+  top: 5px;
+}
+.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478 > .wrapper-3t9DeA,
+.header-QKLPzZ > .avatar-3EQepX.wrapper-3t9DeA,
+.avatarHint-1qgaV3 {
+  width: 100px !important;
+  height: 100px !important;
 }
