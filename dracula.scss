@@ -1156,8 +1156,11 @@ html.theme-light {
 }
 
 /* voice badge */
-.iconBadge-3qSJIw.participating-1NvRVd {
-  background-color: var(--dracula-accent);
+.iconBadge-3qSJIw {
+  background-color: #43b581;
+  &.participating-1NvRVd {
+    background-color: var(--dracula-accent);
+  }
 }
 
 /* mic test - stolen from CreArts v2.0 by CorellanStoma#1996 */
