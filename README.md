@@ -18,8 +18,6 @@
 1. clone the repo `cd powercord/src/powercord/themes && git clone https://github.com/aokiare/dracula`
 2. enable dracula by typing `[p]theme enable dracula` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
 
-**Powercord currently does not auto update themes, to get the latest updates use `git pull`**
-
 ### BetterDiscord
 
 1. download the theme file [here](https://betterdiscord.net/ghdl?id=3493)
