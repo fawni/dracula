@@ -1274,3 +1274,46 @@ rect[mask="url(#4b31347c-cb56-42fe-862e-53b896761cdf)"] {
   width: 100px !important;
   height: 100px !important;
 }
+/* BIV lens */
+.BIV-zoom-lens {
+  border: solid var(--dracula-accent) !important;
+}
+.BIV-zoom-lens-round {
+  border: 2px solid var(--dracula-accent) !important;
+}
+/* server settings roles */
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:hover {
+  border-bottom-color: var(--dracula-accent);
+}
+/* my account settings area - taken from Nyria#3863's LilyPichu theme */
+.background-1QDuV2 {
+  border-radius: 20px;
+
+  .profile-1eT9hT {
+    padding-top: 55px;
+    flex-direction: column;
+    justify-content: center;
+
+    .avatarUploader-3XDtmn {
+      position: absolute;
+      top: 55px;
+      left: 43.5%; // you might have to make adjustments here if you disabled dusk to dawn settings idk too lazy to try it
+
+      .avatarUploaderInner-2EvNMg {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .details-2fkb7l {
+      align-items: center;
+      margin-left: 0;
+    }
+    .menu-319q29 {
+      margin: 10px 0 0 0;
+    }
+  }
+
+  .fieldList-21DyL8 {
+    border-radius: 20px;
+  }
+}
