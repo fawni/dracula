@@ -1317,3 +1317,7 @@ rect[mask="url(#4b31347c-cb56-42fe-862e-53b896761cdf)"] {
     border-radius: 20px;
   }
 }
+/* github plugin compat */
+.has-vpc .content-1LAB8Z {
+  background-color: var(--dracula-primary) !important;
+}
