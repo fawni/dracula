@@ -316,7 +316,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .headerPlaying-j0WQBV,
 .topSectionPlaying-1J5E4n,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
-.wrapper-3WhCwL:hover,
+#app-mount .wrapper-3WhCwL:hover,
 .circleIconButton-1QV--U.selected-1JjBPm,
 .newMessagesBar-265mhP,
 .questionMark-3qBhGj {
@@ -339,7 +339,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .colorBrand-ROmMP1,
 .lookOutlined-3sRXeN.colorBrand-3pXr91,
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV,
-.wrapper-3WhCwL,
+#app-mount .wrapper-3WhCwL,
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
   color: var(--dracula-accent);
 }
@@ -1205,7 +1205,7 @@ html.theme-light {
 }
 
 /* dd's cute mentions */
-.wrapper-3WhCwL {
+#app-mount .wrapper-3WhCwL {
   border-radius: 5px;
   padding: 2px 3px;
   font-size: 0.9em;
@@ -1322,7 +1322,12 @@ rect[mask="url(#4b31347c-cb56-42fe-862e-53b896761cdf)"] {
   background-color: var(--dracula-primary) !important;
 }
 
-/* annoying rebranding raction border */
+/* annoying rebranding reaction border */
 .reaction-1hd86g.reactionMe-wv5HKu {
   border: 0;
+}
+
+/* mentions - discord's rebranding sucks huge fucking cock */
+#app-mount .wrapper-3WhCwL {
+  background-color: var(--dracula-accent-alpha);
 }
