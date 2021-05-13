@@ -1324,7 +1324,10 @@ rect[mask="url(#4b31347c-cb56-42fe-862e-53b896761cdf)"] {
 
 /* annoying rebranding reaction border */
 .reaction-1hd86g.reactionMe-wv5HKu {
-  border: 0;
+  border-color: var(--dracula-accent);
+}
+.reaction-1hd86g:hover {
+  border-color: var(--dracula-accent);
 }
 
 /* mentions - discord's rebranding sucks huge fucking cock */
