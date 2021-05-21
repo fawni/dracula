@@ -37,6 +37,7 @@
   --deprecated-text-input-bg: var(--dracula-secondary);
   --deprecated-text-input-border: var(--dracula-tertiary);
   --radio-group-dot-foreground: var(--dracula-accent);
+  --control-brand-foreground: var(--dracula-accent);
 
   /* powercord */
   --spotify-color: var(--dracula-accent) !important;
