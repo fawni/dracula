@@ -20,7 +20,7 @@
 
 ### BetterDiscord
 
-1. download the theme file [here](https://betterdiscord.net/ghdl?id=3493)
+1. download the theme file [here](https://betterdiscord.app/Download?id=233)
 2. place it in the BetterDiscord themes folder
 3. enable dracula in the themes tab
 
