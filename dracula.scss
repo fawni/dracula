@@ -306,7 +306,6 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 }
 
 /* a lot of blurple annihlated - aka my old snippets that have no comments ;w; */
-.bd-switch input:checked + .bd-switch-body .selected-mKYnfr.option-n0icdO,
 .option-n0icdO:hover,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
@@ -319,8 +318,13 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 #app-mount .wrapper-3WhCwL:hover,
 .circleIconButton-1QV--U.selected-1JjBPm,
 .newMessagesBar-265mhP,
-.questionMark-3qBhGj {
+.questionMark-3qBhGj,
+.bd-button,
+.bd-addon-views .bd-view-button.selected {
   background-color: var(--dracula-accent);
+}
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var(--dracula-accent);
 }
 .button-38aScr[style*="114, 137, 218"],
 .container-3auIfb:not([style*="rgb(114, 118, 125)"]),
@@ -352,7 +356,9 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
   border: 2px solid var(--dracula-accent);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
+.bd-button:hover,
+.bd-button:focus {
   background-color: var(--dracula-accent-light);
 }
 .circleIconButton-1QV--U {
