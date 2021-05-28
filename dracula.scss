@@ -298,7 +298,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 #app-mount .pageWrapper-1PgVDX {
   background-color: var(--dracula-primary);
 }
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
   background-color: var(--dracula-accent);
 }
 .search-1iTphC .searchBox-2_mAlO {
@@ -1300,4 +1300,15 @@ html.theme-light {
 /* posting tokens in chat warning */
 #app-mount .contentWarningPopout-n5JsIs {
   background-color: var(--dracula-secondary);
+}
+
+/* creating new role */
+.checkbox-1ix_J3 {
+  border-color: var(--dracula-accent) !important;
+  background-color: var(--dracula-accent) !important;
+}
+
+/* selection color */
+::selection {
+  background-color: var(--dracula-accent-light);
 }
