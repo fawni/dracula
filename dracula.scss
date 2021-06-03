@@ -1073,7 +1073,7 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 html.theme-light {
   #app-mount {
     &::after {
-      content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
+      content: "You need to have dark theme enabled for dracula to work properly. To enable it, go into Settings -> Appearance";
       background: var(--dracula-tertiary); /* Container color */
       position: fixed;
       z-index: 5;
@@ -1081,7 +1081,7 @@ html.theme-light {
       bottom: 0;
       display: flex;
       align-items: center;
-      max-width: 225px;
+      max-width: 250px;
       line-height: normal;
       padding: 15px 0 15px 60px;
       margin-right: 10px;
@@ -1106,13 +1106,13 @@ html.theme-light {
   background-color: var(--dracula-accent) !important;
 }
 
-/* left icons */
-.icon-LYJorE,
-.iconContainer-2-XQPY {
-  order: -1;
-  padding-right: 10px;
-  margin-left: 0px;
-}
+// /* left icons */
+// .icon-LYJorE,
+// .iconContainer-2-XQPY {
+//   order: -1;
+//   padding-right: 10px;
+//   margin-left: 0px;
+// }
 
 /* Better RTC Connection popout */
 .layerContainer-yqaFcK
