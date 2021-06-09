@@ -77,8 +77,8 @@
 .headerPlaying-j0WQBV {
   background-color: var(--dracula-accent);
 }
-#app-mount .body-3iLsc4,
-#app-mount .footer-1fjuF6 {
+#app-mount .body-3HBlXn,
+#app-mount .footer-1N3bR3 {
   background-color: var(--dracula-secondary);
 }
 #app-mount .headerNormal-T_seeN {
@@ -86,10 +86,10 @@
 }
 
 /* profile modal */
-.topSectionNormal-2-vo2m {
+.topSection-y3p-_D {
   background-color: var(--dracula-primary);
 }
-.body-3ND3kc {
+.body-r6_QPy {
   background-color: var(--dracula-secondary);
 }
 /* bot tags */
@@ -1227,11 +1227,11 @@ html.theme-light {
 }
 
 /* Bigger avatar on popups */
-.header-QKLPzZ > .avatar-3EQepX.wrapper-3t9DeA {
+.header-4zuFdR > .avatar-AvHqJA.wrapper-3t9DeA {
   top: 5px;
 }
-.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478 > .wrapper-3t9DeA,
-.header-QKLPzZ > .avatar-3EQepX.wrapper-3t9DeA,
+.avatarWrapperNormal-26WQIb.avatarWrapper-3H_478 > .wrapper-3t9DeA,
+.header-4zuFdR > .avatar-AvHqJA.wrapper-3t9DeA,
 .avatarHint-1qgaV3 {
   width: 100px !important;
   height: 100px !important;
@@ -1310,5 +1310,5 @@ html.theme-light {
 
 /* selection color */
 ::selection {
-  background-color: var(--dracula-accent-light);
+  background-color: var(--dracula-accent-dark);
 }
