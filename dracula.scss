@@ -279,14 +279,14 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .colorHeaderSecondary-3Sp3Ft,
 .sampleLink-2NLvZg,
 .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
-  color: #c2bbca;
+  color: var(--header-secondary);
 }
 .theme-light .footer-2gL1pp,
 .theme-light .root-1gCeng {
   box-shadow: none;
 }
 .input-cIJ7To {
-  color: #c2bbca;
+  color: var(--header-secondary);
 }
 circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
   fill: var(--dracula-accent);
