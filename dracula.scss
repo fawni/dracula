@@ -1273,3 +1273,13 @@ html.theme-light {
 ::selection {
   background-color: var(--dracula-accent-dark);
 }
+
+/* recolor subscriptions tab */
+.premiumTabItem-1QTfBr[aria-selected='true'] {
+  background-color: var(--dracula-accent) !important;
+}
+
+.side-8zPYf6
+  > .item-PXvHYJ[data-item-id='DiscordNitro']:not(.role-3wi9Tf)::before {
+  --settings-icon-color: #ffffff;
+}
