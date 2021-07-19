@@ -1277,6 +1277,9 @@ html.theme-light {
 /* recolor subscriptions tab */
 .premiumTabItem-1QTfBr[aria-selected='true'] {
   background-color: var(--dracula-accent) !important;
+  &:hover {
+    background-color: var(--dracula-accent-light) !important;
+  }
 }
 
 .side-8zPYf6
