@@ -19,7 +19,6 @@
 @use "./addons/hljs-styling.scss";
 @use "./addons/discolored.css";
 @use "./addons/context-icons.css";
-// @use "./addons/apple-emojis.css";
 // @use "./addons/macos-titlebar.css"
 
 /* Theme */
@@ -319,7 +318,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .topSectionPlaying-1J5E4n,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 #app-mount .wrapper-3WhCwL:hover,
-.circleIconButton-1QV--U.selected-1JjBPm,
+.circleIconButton-hZmpE8.selected-3mFF3I,
 .newMessagesBar-265mhP,
 .questionMark-3qBhGj,
 .bd-button,
@@ -364,7 +363,7 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .bd-button:focus {
   background-color: var(--dracula-accent-light);
 }
-.circleIconButton-1QV--U {
+.circleIconButton-hZmpE8 {
   color: var(--dracula-accent);
   &:hover {
     color: #ffffff;
