@@ -15,7 +15,7 @@
 
 ### Powercord
 
-1. clone the repo `cd powercord/src/powercord/themes && git clone https://github.com/x6r/dracula`
+1. clone the repo `cd powercord/src/Powercord/themes && git clone https://github.com/x6r/dracula`
 2. enable dracula by typing `[p]theme enable dracula` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
 
 ### BetterDiscord
