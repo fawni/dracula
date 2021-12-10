@@ -1,8 +1,8 @@
 {
-  "name": "dracula",
-  "description": "a dark mode discord theme based on the dracula color palette.",
-  "version": "1.3.2",
-  "author": "x6r",
-  "license": "MIT",
-  "theme": "./dracula.scss"
+	"name": "dracula",
+	"description": "a dark mode discord theme based on the dracula color palette.",
+	"version": "1.3.2",
+	"author": "x6r",
+	"license": "ISC",
+	"theme": "./dracula.scss"
 }
