@@ -13,16 +13,16 @@
 
 ## Installation
 
-### Powercord
+- ### [Powercord](https://github.com/powercord-org/powercord)
 
-1. clone the repo `cd powercord/src/Powercord/themes && git clone https://github.com/x6r/dracula`
-2. enable dracula by typing `[p]theme enable dracula` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
+  - clone the repo `cd powercord/src/Powercord/themes && git clone https://github.com/x6r/dracula`
+  - enable dracula by typing `[p]theme enable dracula` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
 
-### BetterDiscord
+- ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
-1. download the theme file [here](https://betterdiscord.app/Download?id=233)
-2. place it in the BetterDiscord themes folder
-3. enable dracula in the themes tab
+  - download the theme file [here](https://betterdiscord.app/Download?id=233)
+  - place it in the BetterDiscord themes folder
+  - enable dracula in the themes tab
 
 ## Credits
 
