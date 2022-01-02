@@ -1300,3 +1300,10 @@ html.theme-light {
 .PronounDB-style-container .PronounDB-style-header {
   color: var(--dracula-accent);
 }
+
+.theme-dark .newPopoutActivityStyles button,
+.theme-dark .newProfileActivityStyles button,
+.theme-light .newPopoutActivityStyles button,
+.theme-light .newProfileActivityStyles button {
+	color: #ffffff;
+}
