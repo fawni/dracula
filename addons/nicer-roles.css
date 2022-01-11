@@ -1,5 +1,5 @@
 /* Nicer Roles by LuckFire, taken from Midnight Mars */
-.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
   z-index: 1;
   position: relative;
   overflow: hidden;
@@ -7,11 +7,11 @@
   border-width: 0 0 0 2px;
   border-radius: 3px;
 }
-.roleCircle-3xAZ1j.flex-1O1GKY {
+.roleCircle-1EgnFN.flex-3BkGQD {
   height: 4px;
   width: 4px;
 }
-.roleCircle-3xAZ1j.flex-1O1GKY:before {
+.roleCircle-1EgnFN.flex-3BkGQD:before {
   content: " ";
   position: absolute;
   z-index: -1;

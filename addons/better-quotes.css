@@ -4,10 +4,10 @@
   --quotes-text: #fff;
 }
 
-.blockquoteContainer-U5TVEi {
+.blockquoteContainer-3VtvI1 {
   padding: 2px 0 2px 0;
 }
-.blockquoteContainer-U5TVEi blockquote {
+.blockquoteContainer-3VtvI1 blockquote {
   background-color: var(--quotes-background-border);
   border: 1px solid var(--quotes-background-border);
   color: var(--quotes-text);
@@ -15,7 +15,7 @@
   padding: 4px 11px 4px;
 }
 
-.blockquoteContainer-U5TVEi > .blockquoteDivider-2hH8H6 {
+.blockquoteContainer-3VtvI1 > .blockquoteDivider-363utW {
   background-color: var(--quotes-divider);
   border-radius: 4px 0 0 4px;
 }

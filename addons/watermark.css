@@ -1,11 +1,11 @@
 /* watermark */
 @import url("https://x6r.github.io/addons/DiscordFont.css"); /* Discord Font */
 
-.wordmark-2iDDfm svg {
+.wordmark-2u86JB svg {
   width: 0px;
 }
 
-.wordmark-2iDDfm::after {
+.wordmark-2u86JB::after {
   position: absolute;
   font-family: "Discord";
   content: "dracula";

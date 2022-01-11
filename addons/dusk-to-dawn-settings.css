@@ -1,23 +1,23 @@
 /* Dusk To Dawn Settings - taken from Dusk to Dawn by Asteria */
 
 :root {
-  --width2: 60%;
-  --height2: 85%;
+	--width2: 60%;
+	--height2: 85%;
 }
 
-.layers-3iHuyZ {
+.layers-OrUESM {
   align-items: center;
   justify-content: center;
 }
-.layers-3iHuyZ > .layer-3QrUeG:first-child {
+.layers-OrUESM > .layer-86YKbF:first-child {
   opacity: 1 !important;
   transform: none !important;
 }
-.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child {
+.layers-OrUESM > .layer-86YKbF.stop-animations:first-child {
   z-index: 1;
   transition: 250ms ease-in;
 }
-.layers-3iHuyZ > .layer-3QrUeG:nth-child(2)::before {
+.layers-OrUESM > .layer-86YKbF:nth-child(2)::before {
   content: "";
   position: absolute;
   top: calc((100% - var(--height2)) / -1);
@@ -30,7 +30,7 @@
   height: 100%;
   transition: opacity 350ms ease;
 }
-.layers-3iHuyZ > .layer-3QrUeG:nth-child(2) {
+.layers-OrUESM > .layer-86YKbF:nth-child(2) {
   width: var(--width2);
   height: var(--height2);
   top: unset;
