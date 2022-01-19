@@ -1,11 +1,103 @@
 .jumpToPresentBar-1cEnH0 {
-  visibility: hidden;
-  bottom: 15px;
+	visibility: hidden;
+	bottom: 15px;
 }
+/*svg*/
 .jumpToPresentBar-1cEnH0 .barButtonIcon-bMvzp2 {
-  visibility: visible;
-  padding: 12px;
-  background-color: var(--dracula-accent);
-  border-radius: 50%;
-  margin-bottom: 2em;
+	visibility: visible;
+	padding: 12px;
+	background-color: var(--dracula-accent);
+	border-radius: 50%;
+	margin-bottom: 2em;
+	color: white;
+	z-index: 1;
+	position: absolute;
+	bottom: 0px;
+	top: 50%;
+	transform: translate(0,-50%);
+	right: 0px;
+	animation: reversestuff 150ms;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+}
+
+/*button*/
+.jumpToPresentBar-1cEnH0 .barButtonAlt-TQoCdZ {
+	visibility: visible;
+	color: transparent;
+	z-index: -1;
+	position: relative;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	margin-bottom: 1em;
+	animation: reversestuff2 150ms;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+}
+/*button hover, apply to sgv*/
+.jumpToPresentBar-1cEnH0:hover .barButtonAlt-TQoCdZ:hover > .barButtonIcon-bMvzp2 {
+	animation: stuff 150ms;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes stuff {
+	0% {
+		background-color: #6272a4;
+		z-index: 1;
+	}
+	100% {
+		background-color: #6272a4;
+		max-width: 124px;
+		border-radius: 124px;
+		padding-left: 11px;
+		padding-right: 124px;
+		z-index: -1;
+	}
+}
+
+@keyframes reversestuff {
+	0% {
+		background-color: #6272a4;
+		max-width: 124px;
+		border-radius: 124px;
+		padding-left: 11px;
+		padding-right: 124px;
+		z-index: -1;
+	}
+	100% {
+		background-color: var(--dracula-accent);
+		z-index: 1;
+	}
+}
+
+/*button hover, apply to button*/
+.jumpToPresentBar-1cEnH0:hover .barButtonAlt-TQoCdZ:hover {
+	animation: stuff2 150ms;
+	animation-delay: 1.1s;
+	animation-fill-mode: both;
+}
+
+@keyframes stuff2 {
+	0% {
+		color: transparent;
+		z-index: -1;
+	}
+	100% {
+		color: white;
+		z-index: 1;
+	}
+}
+
+@keyframes reversestuff2 {
+	0% {
+		color: white;
+		z-index: 1;
+	}
+	100% {
+		color: transparent;
+		z-index: -1;
+	}
 }
