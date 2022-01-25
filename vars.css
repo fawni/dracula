@@ -68,7 +68,7 @@
 	--brand-experiment: var(--dracula-accent);
 	--brand-experiment-500: #7289da;
 	--brand-experiment-530: #687dc6;
-	--brand-experiment-560: #5c6fb1;
+	--brand-experiment-560: var(--dracula-accent-light);
 	--brand-experiment-600: #4e5d94;
 	--brand-experiment-630: #435180;
 	--brand-experiment-660: #3b4770;
