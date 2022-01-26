@@ -1,0 +1,8 @@
+/* hide msg box icons until hover */
+.buttons-uaqb-5 {
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+.channelTextArea-1FufC0:hover .buttons-uaqb-5 {
+	opacity: 1;
+}

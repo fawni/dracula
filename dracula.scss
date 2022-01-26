@@ -19,6 +19,7 @@
 @use "./addons/hljs-styling.scss";
 @use "./addons/discolored.css";
 @use "./addons/context-icons.css";
+// @use "./addons/disappearing-icons";
 // @use "./addons/macos-titlebar.css"
 
 /* Theme */
@@ -1259,15 +1260,6 @@ html.theme-light {
 	padding-left: 1rem;
 }
 
-/* hide msg box icons until hover */
-.buttons-uaqb-5 {
-	opacity: 0;
-	transition: opacity 0.2s;
-}
-.channelTextArea-1FufC0:hover .buttons-uaqb-5 {
-	opacity: 1;
-}
-
 /* BIV lens */
 .BIV-zoom-lens {
 	border: solid var(--dracula-accent) !important;
@@ -1340,4 +1332,9 @@ html.theme-light {
 
 .container-2o3qEW {
 	background-color: var(--dracula-primary);
+}
+
+.button-y6hemj[disabled] > .innerButton-1aF_E_ > .buttonChild-33lB5F,
+.buttonChild-33lB5F {
+	color: var(--dracula-accent);
 }

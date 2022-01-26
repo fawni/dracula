@@ -53,6 +53,8 @@
 	--bd-blue-active: var(--dracula-accent-light);
 	--blurple: var(--dracula-accent);
 
+	/* brands */
+	--text-brand: var(--dracula-accent);
 	--brand-experiment-100: #f8f9fd;
 	--brand-experiment-130: #f2f4fc;
 	--brand-experiment-160: #ebeefa;
