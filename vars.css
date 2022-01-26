@@ -65,7 +65,7 @@
 	--brand-experiment-330: #b5c1ec;
 	--brand-experiment-360: #a5b3e7;
 	--brand-experiment-400: #8ea1e1;
-	--brand-experiment-430: #869adf;
+	--brand-experiment-430: var(--dracula-accent-light);
 	--brand-experiment-460: #7d92dd;
 	--brand-experiment: var(--dracula-accent);
 	--brand-experiment-500: #7289da;
