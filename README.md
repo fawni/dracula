@@ -26,7 +26,7 @@
 
 - ### [Vencord](https://github.com/Vendicated/Vencord)
   - go to vencord themes tab
-  - paste `https://github.com/fawni/dracula/blob/main/BetterDiscord/dracula.theme.css` into the box
+  - paste `https://raw.githubusercontent.com/fawni/dracula/main/BetterDiscord/dracula.theme.css` into the box
 
 ## Credits
 
