@@ -24,6 +24,10 @@
   - place it in the BetterDiscord themes folder
   - enable dracula in the themes tab
 
+- ### [Vencord](https://github.com/Vendicated/Vencord)
+  - go to vencord themes tab
+  - paste `https://raw.githubusercontent.com/fawni/dracula/main/BetterDiscord/dracula.theme.css` into the box
+
 ## Credits
 
 - [LuckFire](https://github.com/LuckFire) for [Better Channel Indicators](https://github.com/LuckFire/BetterChannelIndicators), [Nicer User Connections](https://github.com/LuckFire/Nicer-User-Connections), [Better Quotes](https://github.com/LuckFire/Midnight-Mars/blob/main/src/addons/better-quotes.scss) and [Text Status Indicators](https://github.com/LuckFire/Midnight-Mars/blob/main/src/addons/text-status-indicators.css) addons
