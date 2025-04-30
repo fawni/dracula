@@ -9,7 +9,11 @@
 
 <p align="center">a dark mode discord theme based on the dracula color palette.</p>
 
----
+# ⚠️ Deprecation Notice ⚠️
+
+This theme is no longer maintained and is non-functional on the latest builds of Discord. A similar dracula
+theme that aims to replace this one was created by rushii:
+[rushiiMachine/discord-dracula](https://github.com/rushiiMachine/discord-dracula).
 
 ## Installation
 
